@@ -1,0 +1,50 @@
+ShadPS4KeyMapper/
+│
+├── include/                      # Header files
+│   ├── core/
+│   │   ├── KeyboardMapping.h     # Your main mapping class
+│   │   ├── ControllerButton.h    # Controller button definitions
+│   │   └── ConfigManager.h       # Configuration file manager
+│   │
+│   └── ui/
+│       ├── MainWindow.h          # Main application window
+│       ├── KeyboardVisualizer.h  # Visual keyboard representation
+│       ├── ControllerVisualizer.h # Visual controller representation
+│       └── ProfileManager.h      # Profile management UI
+│
+├── src/                          # Source files
+│   ├── core/
+│   │   ├── KeyboardMapping.cpp
+│   │   ├── ControllerButton.cpp
+│   │   └── ConfigManager.cpp
+│   │
+│   ├── ui/
+│   │   ├── MainWindow.cpp
+│   │   ├── KeyboardVisualizer.cpp
+│   │   ├── ControllerVisualizer.cpp
+│   │   └── ProfileManager.cpp
+│   │
+│   └── main.cpp                  # Application entry point
+│
+├── resources/                    # Resource files
+│   ├── images/
+│   │   ├── keyboard.png
+│   │   ├── controller.png
+│   │   └── buttons/              # Button images
+│   │
+│   ├── styles/                   # CSS stylesheets
+│   │   └── dark_theme.css
+│   │
+│   └── profiles/                 # Default profiles
+│       ├── default.json
+│       └── games/
+│
+├── tests/                        # Unit tests
+│   ├── core_tests/
+│   └── ui_tests/
+│
+├── docs/                         # Documentation
+│
+├── CMakeLists.txt                # CMake build configuration
+├── .gitignore
+└── README.md
